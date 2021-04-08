@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_2_to_4.vhd" \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Instruction_Decoder.vhd" \
+"../../../../Fianl_Projact.srcs/sim_1/imports/new/Instruction_Decoder_sim.vhd" \
+
+# Do not sort compile order
+nosort

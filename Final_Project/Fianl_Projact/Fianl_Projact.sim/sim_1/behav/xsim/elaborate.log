@@ -1,6 +1,6 @@
 Vivado Simulator 2018.2
 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 3979bdd0f97246b59bfc8905bb43a93d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot MUX_2_way_4_bit_sim_behav xil_defaultlib.MUX_2_way_4_bit_sim -log elaborate.log 
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 3979bdd0f97246b59bfc8905bb43a93d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Instruction_Decoder_sim_behav xil_defaultlib.Instruction_Decoder_sim -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
@@ -10,8 +10,7 @@ Time Resolution for simulation is 1ps
 Compiling package std.standard
 Compiling package std.textio
 Compiling package ieee.std_logic_1164
-Compiling architecture behavioral of entity xil_defaultlib.Decoder_1_to_2 [decoder_1_to_2_default]
-Compiling architecture behavioral of entity xil_defaultlib.tri_state_buffer [tri_state_buffer_default]
-Compiling architecture behavioral of entity xil_defaultlib.MUX_2_way_4_bit [mux_2_way_4_bit_default]
-Compiling architecture behavioral of entity xil_defaultlib.mux_2_way_4_bit_sim
-Built simulation snapshot MUX_2_way_4_bit_sim_behav
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Instruction_Decoder [instruction_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.instruction_decoder_sim
+Built simulation snapshot Instruction_Decoder_sim_behav
