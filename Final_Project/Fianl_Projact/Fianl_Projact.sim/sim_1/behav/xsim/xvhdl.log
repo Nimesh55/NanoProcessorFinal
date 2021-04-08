@@ -1,4 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Adder_3_bit
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sim_1/imports/new/Adder_3_bit_sim.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity Adder_3_bit_sim
