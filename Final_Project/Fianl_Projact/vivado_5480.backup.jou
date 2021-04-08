@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr  7 16:10:45 2021
+# Process ID: 5480
+# Current directory: C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7884 C:\Users\User\Documents\GitHub\NanoProcessor\Final_Project\Fianl_Projact\Fianl_Projact.xpr
+# Log file: C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/vivado.log
+# Journal file: C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.xpr
+update_compile_order -fileset sources_1
+import_files -norecurse {C:/Sources/tri_state_buffer_3bit.vhd C:/Sources/Decoder_2_to_4.vhd C:/Sources/HA.vhd C:/Sources/MUX_8_way_4_bit.vhd C:/Sources/Counter.vhd C:/Sources/Slow_Clock.vhd C:/Sources/tri_state_buffer.vhd C:/Sources/RegisterBank.vhd C:/Sources/D_FF.vhd C:/Sources/Reg.vhd C:/Sources/Decoder_3_to_8.vhd C:/Sources/Instruction_Decoder.vhd C:/Sources/NanoProcessor.vhd C:/Sources/Decoder_3_to_8_MUX.vhd C:/Sources/Mux_2way_4bit.vhd C:/Sources/MUX_2_way_3_bit.vhd C:/Sources/Program_ROM.vhd C:/Sources/Add_Sub_unit.vhd C:/Sources/D_FFR.vhd C:/Sources/Adder_3_bit.vhd C:/Sources/FA.vhd}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+import_files -fileset sim_1 -norecurse {C:/Sim/MUX_2_way_4_bit_sim.vhd C:/Sim/MUX_2_way_3_bit_sim.vhd C:/Sim/Counter_Sim.vhd}
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/NanoProcessor.vhd]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Sources/RegisterBank.vhd -to_files C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/RegisterBank.vhd -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Reg.vhd]
+update_compile_order -fileset sources_1
+import_files -force -norecurse C:/Sources/Reg.vhd
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top NanoProcessor [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+import_files -force -norecurse C:/Sources/Slow_Clock.vhd
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/D_FFR.vhd]

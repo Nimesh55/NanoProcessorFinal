@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RegisterBank.srcs/sources_1/imports/new/D_FF.vhd" \
+"../../../../RegisterBank.srcs/sources_1/new/Reg.vhd" \
+"../../../../RegisterBank.srcs/sources_1/imports/new/Slow_Clock.vhd" \
+"../../../../RegisterBank.srcs/sim_1/new/Reg_sim.vhd" \
+
+# Do not sort compile order
+nosort

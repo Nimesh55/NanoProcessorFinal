@@ -1,0 +1,138 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 8092
+License: Customer
+
+Current time: 	Thu Apr 08 10:33:57 IST 2021
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 283 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	NBA
+User home directory: C:/Users/NBA
+User working directory: C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.2
+RDI_DATADIR: C:/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/NBA/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/NBA/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/NBA/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/vivado.log
+Vivado journal file location: 	C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/vivado.jou
+Engine tmp dir: 	C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/.Xil/Vivado-8092-NBA
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.2
+XILINX_SDK: C:/Xilinx/SDK/2018.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	199 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 502 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 67 MB (+67536kb) [00:00:10]
+// [Engine Memory]: 472 MB (+343747kb) [00:00:10]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\NBA\Pictures\New folder\NanoProcessor\NanoProcessor final\NanoProcessor final.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 541 MB (+46757kb) [00:00:14]
+// [Engine Memory]: 568 MB (+102kb) [00:00:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 579 MB. GUI used memory: 35 MB. Current time: 4/8/21 10:34:02 AM IST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 789.719 ; gain = 73.305 
+// Project name: NanoProcessor final; location: C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// [Engine Memory]: 624 MB (+28788kb) [00:00:29]
+// Elapsed time: 10 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd)]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9); // B (D, ck)
+// PAPropertyPanels.initPanels (Adder_3_bit.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 78 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("Adder_3_bit.vhd", 171, 72); // ce (w, ck)
+// Run Command: RDIResourceCommand.RDICommands_RESET_LAYOUT
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true); // B (D, ck) - Node
+// [GUI Memory]: 73 MB (+2975kb) [00:02:06]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// [GUI Memory]: 78 MB (+1012kb) [00:04:54]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 289ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 82 MB (+1028kb) [00:10:00]
+// Elapsed time: 535 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, NanoProcessor(Behavioral) (NanoProcessor.vhd), adder : Adder_3_bit(Behavioral) (Adder_3_bit.vhd)]", 9, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_REPLACE_FILE, "Replace File..."); // ad (aj, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SRC_REPLACE_FILE
+// Elapsed time: 53 seconds
+setFileChooser("C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd");
+// 'dH' command handler elapsed time: 53 seconds
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_files -from_files {{C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd}} -to_files {{C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd}} -filesets [get_filesets *] 
+// Tcl Message: INFO: [filemgmt 20-762] Replacing file 'C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd' with file 'C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd'. INFO: [filemgmt 20-1080] Importing file from 'C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd' to 'C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd'. 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cM, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 90 MB (+3144kb) [00:12:20]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

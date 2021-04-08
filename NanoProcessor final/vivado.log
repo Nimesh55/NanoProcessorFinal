@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Apr  8 10:33:39 2021
+# Process ID: 8092
+# Current directory: C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8184 C:\Users\NBA\Pictures\New folder\NanoProcessor\NanoProcessor final\NanoProcessor final.xpr
+# Log file: C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/vivado.log
+# Journal file: C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 789.719 ; gain = 73.305
+update_compile_order -fileset sources_1
+update_files -from_files {{C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd}} -to_files {{C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd}} -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd' with file 'C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd'.
+INFO: [filemgmt 20-1080] Importing file from 'C:/Users/NBA/Pictures/New folder/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd' to 'C:/Users/NBA/Pictures/New folder/NanoProcessor/NanoProcessor final/NanoProcessor final.srcs/sources_1/imports/new/Adder_3_bit.vhd'.
