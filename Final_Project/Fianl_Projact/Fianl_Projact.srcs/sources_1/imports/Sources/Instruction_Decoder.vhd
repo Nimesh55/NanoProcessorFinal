@@ -43,10 +43,7 @@ Decoder_2_to_40 : Decoder_2_to_4
 Add_Sub_select <= NEG;
 Load_select <= MOV;
 
---if (not(JZR)) then
---outputTri<=inputTri WHEN (EN='1') else "ZZZ";
 Reg_Enable <= INS(9 downto 7) WHEN (JZR='0') else "ZZZ";
---end if;
 Imediate_val <= INS(3 downto 0);
 Reg_Select_0 <= INS(9 downto 7);
 Reg_Select_1 <= INS(6 downto 4);
