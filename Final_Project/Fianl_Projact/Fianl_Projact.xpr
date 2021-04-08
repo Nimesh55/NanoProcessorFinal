@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="38" Path="C:/Users/User/Desktop/New folder/Final_Project/Fianl_Projact/Fianl_Projact.xpr">
+<Project Version="7" Minor="38" Path="C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="3979bdd0f97246b59bfc8905bb43a93d"/>
@@ -32,7 +32,7 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="basys3"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="35"/>
+    <Option Name="WTXSimLaunchSim" Val="37"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -60,17 +60,9 @@
   <FileSets Version="1" Minor="31">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sources_1/imports/Sources/Add_Sub_unit.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/Sources/D_FF.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Add_Sub_unit.vhd"/>
-          <Attr Name="ImportTime" Val="1617791396"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/Sources/Adder_3_bit.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Adder_3_bit.vhd"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/D_FF.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -84,9 +76,37 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/Sources/D_FF.vhd">
+      <File Path="$PSRCDIR/sources_1/imports/Sources/HA.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/D_FF.vhd"/>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/HA.vhd"/>
+          <Attr Name="ImportTime" Val="1617791396"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Sources/Adder_3_bit.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Adder_3_bit.vhd"/>
+          <Attr Name="ImportTime" Val="1617791396"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Sources/FA.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/FA.vhd"/>
+          <Attr Name="ImportTime" Val="1617791396"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Sources/Add_Sub_unit.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Add_Sub_unit.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -94,6 +114,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Decoder_2_to_4.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Decoder_2_to_4.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -102,6 +123,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Decoder_3_to_8.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Decoder_3_to_8.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -110,23 +132,8 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Decoder_3_to_8_MUX.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Decoder_3_to_8_MUX.vhd"/>
-          <Attr Name="ImportTime" Val="1617791396"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/Sources/FA.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/FA.vhd"/>
-          <Attr Name="ImportTime" Val="1617791396"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PSRCDIR/sources_1/imports/Sources/HA.vhd">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/HA.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -134,6 +141,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Instruction_Decoder.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Instruction_Decoder.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -142,6 +150,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Desktop/LUT_16_7.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../LUT_16_7.vhd"/>
           <Attr Name="ImportTime" Val="1617796501"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -150,6 +159,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/MUX_2_way_3_bit.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/MUX_2_way_3_bit.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -158,6 +168,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/MUX_8_way_4_bit.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/MUX_8_way_4_bit.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -166,6 +177,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Mux_2way_4bit.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Mux_2way_4bit.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -174,6 +186,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Program_ROM.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Program_ROM.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -182,6 +195,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Reg.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Reg.vhd"/>
           <Attr Name="ImportTime" Val="1617789962"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -190,6 +204,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/RegisterBank.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/RegisterBank.vhd"/>
           <Attr Name="ImportTime" Val="1617793163"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -198,6 +213,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/Slow_Clock.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/Slow_Clock.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -206,6 +222,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/tri_state_buffer.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/tri_state_buffer.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -214,6 +231,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Sources/tri_state_buffer_3bit.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/tri_state_buffer_3bit.vhd"/>
           <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -222,6 +240,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/new/NanoProcessor.vhd">
         <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -246,13 +265,14 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="NanoProcessor"/>
+        <Option Name="TopModule" Val="Counter"/>
       </Config>
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/new/NanoProcessor_xdc.xdc">
         <FileInfo>
+          <Attr Name="UserDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
@@ -263,19 +283,37 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PSRCDIR/sim_1/imports/new/NanoProcessor_sim.vhd">
+      <File Path="$PSRCDIR/sim_1/imports/Sim/Counter_Sim.vhd">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../NanoProcessor final/NanoProcessor final.srcs/sim_1/new/NanoProcessor_sim.vhd"/>
-          <Attr Name="ImportTime" Val="1617789200"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sim/Counter_Sim.vhd"/>
+          <Attr Name="ImportTime" Val="1617791396"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sim_1/imports/Sim/Counter_Sim.vhd">
+      <File Path="$PSRCDIR/sim_1/imports/new/Adder_3_bit_sim.vhd">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sim/Counter_Sim.vhd"/>
-          <Attr Name="ImportTime" Val="1617791396"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../3-bit-adder/3 bit adder/Sources/sim_1/new/Adder_3_bit_sim.vhd"/>
+          <Attr Name="ImportTime" Val="1617878496"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/Sim/TB_Add_Sub_unit.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../4 bit add sub/4_bit_Add_Sub/Final Project-4_bit_AddSub/Final Project.srcs/sim_1/imports/Sim/TB_Add_Sub_unit.vhd"/>
+          <Attr Name="ImportTime" Val="1617878496"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/imports/new/NanoProcessor_sim.vhd">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../NanoProcessor final/NanoProcessor final.srcs/sim_1/new/NanoProcessor_sim.vhd"/>
+          <Attr Name="ImportTime" Val="1617789200"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -300,7 +338,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="NanoProcessor_sim"/>
+        <Option Name="TopModule" Val="Counter_Sim"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
         <Option Name="TransportPathDelay" Val="0"/>
         <Option Name="TransportIntDelay" Val="0"/>

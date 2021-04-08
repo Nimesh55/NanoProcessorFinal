@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Add_Sub_unit.vhd" \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/FA.vhd" \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/HA.vhd" \
+"../../../../Fianl_Projact.srcs/sim_1/imports/Sim/TB_Add_Sub_unit.vhd" \
+
+# Do not sort compile order
+nosort
