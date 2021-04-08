@@ -4,6 +4,7 @@ vhdl xil_defaultlib  \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd" \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Counter.vhd" \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/D_FF.vhd" \
+"../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_1_to_2.vhd" \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_2_to_4.vhd" \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8.vhd" \
 "../../../../Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8_MUX.vhd" \

@@ -9,20 +9,7 @@ ENTITY NanoProcessor IS
         Overflow_Flag : OUT STD_LOGIC;                      --Overflow flag
         Carry_Flag : OUT STD_LOGIC;                         --Carry flag
         Negative_Flag : OUT STD_LOGIC;                      --Negative Flag
-        -- Reg0 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 1
-        -- Reg1 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 2
-        -- Reg2 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 3
-        -- Reg3 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 4
-        -- Reg4 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 5
-        -- Reg5 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 6
-        -- Reg6 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 7
         Reg7 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Register 8
-        -- Num1 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --First Number
-        -- Num2 : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);            --Second Number
-        -- Instruction_next : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);--Next Instruction address
-        -- Instruction_Current: OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
-        -- jmp_flag : OUT STD_LOGIC;                           --Jump flag
-        -- instructions : OUT STD_LOGIC_VECTOR(11 DOWNTO 0);   --Instructions
         SD_7_display : OUT STD_LOGIC_VECTOR(6 DOWNTO 0));   --7 segment display
 END NanoProcessor;
 
@@ -279,19 +266,6 @@ BEGIN
         data => SD_7_display
     );
     
-    --selection proper port to each register
---    Reg0 <= R0_value;
---    Reg1 <= R1_value;
---    Reg2 <= R2_value;
---    Reg3 <= R3_value;
---    Reg4 <= R4_value;
---    Reg5 <= R5_value;
---    Reg6 <= R6_value;
     Reg7 <= R7_value;
---    Num1 <= Number01;
---    Num2 <= Number02;
---    jmp_flag <= Jump_flag_sel;
---    instructions <= Instruction_bus;
---    Instruction_next <= Next_instruction;
---    Instruction_Current<=Current_Instruction;
+
 END Behavioral;
