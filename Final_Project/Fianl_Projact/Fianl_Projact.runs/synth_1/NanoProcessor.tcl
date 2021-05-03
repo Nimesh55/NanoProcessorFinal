@@ -17,43 +17,41 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {Common 17-41} -limit 10000000
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.cache/wt [current_project]
-set_property parent.project_path C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.xpr [current_project]
+set_property webtalk.parent_dir {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.1 [current_project]
-set_property ip_output_repo c:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.cache/ip [current_project]
+set_property ip_output_repo {c:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Add_Sub_unit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Counter.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/D_FF.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_2_to_4.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8_MUX.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/FA.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/HA.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Instruction_Decoder.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Desktop/LUT_16_7.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/MUX_2_way_3_bit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/MUX_8_way_4_bit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Mux_2way_4bit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Program_ROM.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Reg.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/RegisterBank.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Slow_Clock.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/tri_state_buffer.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/tri_state_buffer_3bit.vhd
-  C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/new/NanoProcessor.vhd
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Add_Sub_unit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Adder_3_bit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Counter.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/D_FF.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_1_to_2.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_2_to_4.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Decoder_3_to_8_MUX.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/FA.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/HA.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Instruction_Decoder.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Desktop/LUT_16_7.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/MUX_2_way_3_bit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/MUX_8_way_4_bit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Mux_2way_4bit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Program_ROM.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Reg.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/RegisterBank.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/Slow_Clock.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/tri_state_buffer.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/imports/Sources/tri_state_buffer_3bit.vhd}
+  {C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/sources_1/new/NanoProcessor.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -63,8 +61,8 @@ read_vhdl -library xil_defaultlib {
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc
-set_property used_in_implementation false [get_files C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc]
+read_xdc {{C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc}}
+set_property used_in_implementation false [get_files {{C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc}}]
 
 set_param ips.enableIPCacheLiteLoad 0
 close [open __synthesis_is_running__ w]

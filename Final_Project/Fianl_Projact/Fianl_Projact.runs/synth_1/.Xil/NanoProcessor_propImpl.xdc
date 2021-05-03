@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/User/Documents/GitHub/NanoProcessor/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc rfile:../../../Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:{C:/Users/NBA/Pictures/New folder/NanoProcessorFinal/Final_Project/Fianl_Projact/Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc} rfile:../../../Fianl_Projact.srcs/constrs_1/new/NanoProcessor_xdc.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN W5 [get_ports Clk]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]

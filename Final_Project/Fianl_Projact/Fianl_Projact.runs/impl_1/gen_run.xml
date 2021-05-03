@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1617875311">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1620028182">
+  <File Type="ROUTE-PWR" Name="NanoProcessor_power_routed.rpt"/>
   <File Type="PA-TCL" Name="NanoProcessor.tcl"/>
   <File Type="BITSTR-BMM" Name="NanoProcessor_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="NanoProcessor_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="NanoProcessor_reports.tcl"/>
   <File Type="OPT-DCP" Name="NanoProcessor_opt.dcp"/>
+  <File Type="OPT-DRC" Name="NanoProcessor_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="NanoProcessor.hwdef"/>
   <File Type="PWROPT-DCP" Name="NanoProcessor_pwropt.dcp"/>
   <File Type="PLACE-DCP" Name="NanoProcessor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="NanoProcessor_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="NanoProcessor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="NanoProcessor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="NanoProcessor_control_sets_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="NanoProcessor_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="NanoProcessor.bgn"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="NanoProcessor_postplace_pwropt.dcp"/>
@@ -16,17 +23,32 @@
   <File Type="ROUTE-ERROR-DCP" Name="NanoProcessor_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="NanoProcessor_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="NanoProcessor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="NanoProcessor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="NanoProcessor_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="NanoProcessor_drc_routed.rpx"/>
   <File Type="BITSTR-LTX" Name="NanoProcessor.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="NanoProcessor_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-MMI" Name="NanoProcessor.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="NanoProcessor_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="NanoProcessor_methodology_drc_routed.pb"/>
   <File Type="BITSTR-SYSDEF" Name="NanoProcessor.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="NanoProcessor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="NanoProcessor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="NanoProcessor_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="NanoProcessor_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="NanoProcessor_timing_summary_routed.pb"/>
-  <File Type="RDI-RDI" Name="NanoProcessor.vdi"/>
+  <File Type="ROUTE-TIMING-RPX" Name="NanoProcessor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="NanoProcessor_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="NanoProcessor_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="NanoProcessor_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="NanoProcessor_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="NanoProcessor_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="NanoProcessor_postroute_physopt_bb.dcp"/>
   <File Type="BG-BIT" Name="NanoProcessor.bit"/>
   <File Type="BITSTR-RBT" Name="NanoProcessor.rbt"/>
   <File Type="BITSTR-NKY" Name="NanoProcessor.nky"/>
   <File Type="BG-DRC" Name="NanoProcessor.drc"/>
+  <File Type="RDI-RDI" Name="NanoProcessor.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -58,6 +80,12 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Sources/D_FF.vhd"/>
         <Attr Name="ImportTime" Val="1617791396"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Sources/Decoder_1_to_2.vhd">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>

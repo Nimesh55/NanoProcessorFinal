@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Thu Apr  8 15:19:47 2021
-| Host         : DESKTOP-S62GP9U running 64-bit major release  (build 9200)
+| Date         : Mon May  3 13:20:27 2021
+| Host         : NBA running 64-bit major release  (build 9200)
 | Command      : report_utilization -file NanoProcessor_utilization_synth.rpt -pb NanoProcessor_utilization_synth.pb
 | Design       : NanoProcessor
 | Device       : 7a35tcpg236-1

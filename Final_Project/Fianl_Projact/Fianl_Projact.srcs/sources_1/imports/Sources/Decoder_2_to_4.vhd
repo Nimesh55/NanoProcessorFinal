@@ -2,7 +2,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Using 2 to 4 decoder, at instance only one output will be ebabled of 4
+-- Using 2 to 4 decoder, at instance only one output will be enabled of 4
 -- used what we implemented in previous lab
 
 entity Decoder_2_to_4 is
