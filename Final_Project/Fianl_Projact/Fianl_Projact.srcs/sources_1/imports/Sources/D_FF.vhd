@@ -6,7 +6,6 @@ entity D_FF is
            Res : in STD_LOGIC;
            Clk : in STD_LOGIC;
            Q : out STD_LOGIC);
---           Qbar : out STD_LOGIC);
 end D_FF;
 
 architecture Behavioral of D_FF is
