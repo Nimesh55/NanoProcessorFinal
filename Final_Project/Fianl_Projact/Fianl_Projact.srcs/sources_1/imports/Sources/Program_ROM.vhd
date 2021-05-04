@@ -20,7 +20,7 @@ ARCHITECTURE Behavioral OF ProgramRom IS
         "001101010000",
         "111100000111",
         "110000000011",
-        "000000000000");
+        "011010000000");
 
 BEGIN
 
