@@ -19,7 +19,6 @@ ARCHITECTURE Behavioral OF Counter IS
             Res : IN STD_LOGIC;
             Clk : IN STD_LOGIC;
             Q : OUT STD_LOGIC
---            Qbar : OUT STD_LOGIC
         );
     END COMPONENT;
 
